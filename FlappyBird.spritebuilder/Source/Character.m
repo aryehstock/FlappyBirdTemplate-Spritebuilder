@@ -18,7 +18,7 @@
     self.physicsBody.collisionType = @"character";
 }
 
-+ (void)flap
+- (void)flap
 {
     [self.physicsBody applyImpulse:ccp(0, 400.f)];
 }
